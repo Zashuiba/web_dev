@@ -6,9 +6,11 @@ var altura = $( '#altura' ).val() ;
 
 var peso = $('#peso').val();
 
-var IMC = peso / (altura * altura);
+var IMCpre = peso / (altura * altura);
+
+var IMC = IMCpre.toFixed(2);
 
 
-	$('#resultado').html(IMC);
+	$('#resultado').html(IMCpre);
 
   });
