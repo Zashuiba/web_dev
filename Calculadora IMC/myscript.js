@@ -10,6 +10,8 @@ var IMCpre = peso / (altura * altura);
 
 var IMC = IMCpre.toFixed(2);
 
+alert(IMC);
+
 
 	$('#resultado').html(IMC);
 
